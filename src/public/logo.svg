@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#2E8B57" stroke-width="2"/>
+  
+  <!-- 内部装饰圆环 -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#3CB371" stroke-width="1"/>
+  
+  <!-- 装饰性线条 -->
+  <line x1="30" y1="100" x2="170" y2="100" stroke="#3CB371" stroke-width="1"/>
+  <line x1="100" y1="30" x2="100" y2="170" stroke="#3CB371" stroke-width="1"/>
+  
+  <!-- Vintage 文字 -->
+  <text x="100" y="105" 
+        font-family="Georgia, serif" 
+        font-size="24" 
+        text-anchor="middle" 
+        fill="#2E8B57">
+    VINTAGE
+  </text>
+  
+  <!-- 装饰性花纹元素 -->
+  <path d="M60 75 Q100 65, 140 75" fill="none" stroke="#3CB371" stroke-width="1"/>
+  <path d="M60 125 Q100 135, 140 125" fill="none" stroke="#3CB371" stroke-width="1"/>
+</svg>

@@ -1,0 +1,29 @@
+:root {
+  --vp-home-hero-name-color: #2E8B57;
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(
+    135deg,
+    #c2ffd8 10%,
+    #465efb 100%
+  ); */
+
+  --vp-button-brand-bg: #2E8B57;
+
+  --vp-c-brand: #2E8B57;
+  --vp-c-brand-1: #2E8B57;
+  --vp-c-brand-dimm: #8FBC8F;
+
+  --vp-home-hero-image-background-image: -webkit-linear-gradient(
+    120deg,
+    #c6ffe6 40%,
+    #61bc84 60%
+  );
+  --vp-home-hero-image-filter: blur(108px);
+}
+
+/* .vitepress/theme/style/var.css */
+.medium-zoom-overlay {
+  z-index: 30;
+}
+.medium-zoom-image {
+  z-index: 9999 !important; /* 给的值是21，但是实测盖不住，直接999 */
+}
