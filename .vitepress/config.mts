@@ -54,7 +54,7 @@ export default defineConfig({
       {
         text: "生态",
         items: [
-          { text: "java资源", link: "https://nync.piesat.cn/vjpress/" }
+          { text: "java资源", link: "https://cat-eat-bat.github.io/vjpress/" }
         ],
       },
     ],
@@ -149,9 +149,9 @@ export default defineConfig({
 
     socialLinks: [
       {
-        icon: "gitlab",
-        link: "https://git.piesat.cn:10004/NanJingRDC/NYNC/Foundation/vintage-websites",
-        ariaLabel: "gitlab repo url",
+        icon: "github",
+        link: "https://github.com/cat-eat-bat",
+        ariaLabel: "github profile url",
       },
     ],
 
@@ -161,7 +161,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        "https://git.piesat.cn:10004/NanJingRDC/NYNC/Foundation/vintage-websites/edit/main/fe-press/src/:path",
+        "https://github.com/cat-eat-bat/vfe/edit/main/src/:path",
       text: "帮助完善此文档",
     },
   },
