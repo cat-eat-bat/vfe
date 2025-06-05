@@ -62,6 +62,16 @@ nginx 里可以设置让浏览器客户端对资源进行缓存，如下：
 add_header    Cache-Control  max-age=3600; # 单位是秒
 ```
 
+如果希望完全隐藏上游服务器设置的 Cache-Control 头，可以使用 proxy_hide_header 指令。然后，你可以通过 add_header 添加自己的缓存控制头：
+
+```lua
+    # 隐藏上游服务器的 Cache-Control 头
+    proxy_hide_header Cache-Control;
+
+    # 添加自定义的 Cache-Control 头
+    add_header Cache-Control "public, max-age=3600" always;
+```
+
 
 
 
